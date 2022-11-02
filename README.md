@@ -158,7 +158,7 @@ Now go to advanced details and in IAM instance profile, create new IAM profile
 
 ![image](https://user-images.githubusercontent.com/109040029/199380093-d3d3e225-c87d-4056-be5d-ea732b57ee1a.png)
 
-Click on Create Policy and  select JSON tab and write below mentioned script
+Click on Create Policy and  select JSON tab and write below mentioned script (it will give full cloudwatch access)
 
 {
 
