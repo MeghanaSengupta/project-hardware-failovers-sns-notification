@@ -145,3 +145,40 @@ Now click on create database and keep rest of the things default.
 Now select EC2 service and click on launch instance
 
 
+create a new key pair Key pair name = RDS-EC2-SNS 
+
+Select RSA and .ppk
+
+![image](https://user-images.githubusercontent.com/109040029/199379490-4fb7517a-2858-4ca3-aa51-6548624217a0.png)
+
+
+
+![image](https://user-images.githubusercontent.com/109040029/199380093-d3d3e225-c87d-4056-be5d-ea732b57ee1a.png)
+
+Click on Create Policy and  select JSON tab and write below mentioned script
+
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "CloudWatchAccess",
+            "Action": "cloudwatch:*",
+            "Effect": "Allow",
+            "Resource": "*"
+        }
+    ]
+}
+
+go to next and if you wish give tag or else select Review
+
+now give name  CloudWatchRole-EC2-RDS-SNS and click on Create policy
+
+![image](https://user-images.githubusercontent.com/109040029/199382271-af9d1fe4-1c39-4fde-95c9-25ca9943c462.png)
+
+
+
+
+
+
+
+
