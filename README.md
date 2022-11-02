@@ -144,6 +144,7 @@ Now click on create database and keep rest of the things default.
 
 Now select EC2 service and click on launch instance
 
+AMI = Linux, free tier eligible, instance type = t2.micro
 
 create a new key pair Key pair name = RDS-EC2-SNS 
 
@@ -151,7 +152,9 @@ Select RSA and .ppk
 
 ![image](https://user-images.githubusercontent.com/109040029/199379490-4fb7517a-2858-4ca3-aa51-6548624217a0.png)
 
+Netowrk setting = select the VPC we have created. Subnet = public subnet, enable auto assign public IP, select existing securtiy group, we created, EC2-SG
 
+Now go to advanced details and in IAM instance profile, create new IAM profile
 
 ![image](https://user-images.githubusercontent.com/109040029/199380093-d3d3e225-c87d-4056-be5d-ea732b57ee1a.png)
 
