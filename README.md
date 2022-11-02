@@ -118,6 +118,8 @@ Now go to RDS Dashboard and click on DB Instances. Then click on create database
 
 Select Standard create, MySQL, Free Tier templates, 
 
+![image](https://user-images.githubusercontent.com/109040029/199377772-ddfdfdc9-70d0-4ef8-9132-ec8487e2b559.png)
+
 DB instance identifier: Enter RDS-EC2-SNS
 
 Master username: Enter admin
@@ -128,6 +130,18 @@ Confirm password: Enter admin123
 
 select Burstable classes and select db.t3.micro
 
-Allocated storage: 20 GiB.
+Allocated storage 20 GiB.
 
-Enable storage autoscaling: Uncheck the option
+Uncheck Enable storage autoscaling option
+
+![image](https://user-images.githubusercontent.com/109040029/199377912-6a0a791a-1b93-4c3c-bee9-7fc289b1746c.png)
+
+In Connectivity, select the VPC we've created, No Public access and select rds-sns DB subnet group,choose exiting security group = RDS-SG and remove default
+
+![image](https://user-images.githubusercontent.com/109040029/199378060-9e1de09a-272c-49b1-b7a0-73c58cb0f7df.png)
+
+Now click on create database and keep rest of the things default.
+
+Now select EC2 service and click on launch instance
+
+
