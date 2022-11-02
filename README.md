@@ -94,8 +94,40 @@ Now click on Edit Subnet Associations
 
 and save associations
 
+Create Security group for EC2. Select the VPC we've created and give inbound rules SSH port 22
 
+![image](https://user-images.githubusercontent.com/109040029/199374343-4ac7cc55-c389-4ed7-b007-4a9ec6299b06.png)
 
+click on create Security Group
 
+Create Security group for RDS. Select the VPC we've created and give inbound rules MySQL/Aurora port 3306
 
+![image](https://user-images.githubusercontent.com/109040029/199374483-d1e624b0-b698-4da7-a4c2-61e72f4c6e80.png)
 
+click on create security group
+
+now select RDS services and go to subnet groups and create subnet groups
+
+Give name RDS-SNS, Select VPC we've created, Select Availability Zone 2a and 2b, and select both the private subnets we have created
+
+![image](https://user-images.githubusercontent.com/109040029/199375307-2feb9819-cc80-4ef6-8aa7-a4923c54ae9b.png)
+
+click on create
+
+Now go to RDS Dashboard and click on DB Instances. Then click on create database
+
+Select Standard create, MySQL, Free Tier templates, 
+
+DB instance identifier: Enter RDS-EC2-SNS
+
+Master username: Enter admin
+
+Master password: Enter admin123
+
+Confirm password: Enter admin123
+
+select Burstable classes and select db.t3.micro
+
+Allocated storage: 20 GiB.
+
+Enable storage autoscaling: Uncheck the option
