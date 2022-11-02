@@ -161,15 +161,25 @@ Now go to advanced details and in IAM instance profile, create new IAM profile
 Click on Create Policy and  select JSON tab and write below mentioned script
 
 {
+
     "Version": "2012-10-17",
+    
     "Statement": [
+    
         {
+        
             "Sid": "CloudWatchAccess",
+            
             "Action": "cloudwatch:*",
+            
             "Effect": "Allow",
+            
             "Resource": "*"
+            
         }
+        
     ]
+    
 }
 
 go to next and if you wish give tag or else select Review
