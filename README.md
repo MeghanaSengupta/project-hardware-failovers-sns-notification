@@ -228,13 +228,26 @@ select Create new topic and give name EC2-RDS-SNS-failure and enter the email ad
 
 Now click on EC2 action, and select Recover this instance
 
-![image](https://user-images.githubusercontent.com/109040029/199631916-7485ee67-fed0-41e6-8ce0-e6ca235c2838.png)
+![image](https://user-images.githubusercontent.com/109040029/199632420-dbe77c8e-c9db-4d9d-8a53-88098034e0bf.png)
+
+Now click next
+
+give Alarm name and click next
+
+![image](https://user-images.githubusercontent.com/109040029/199632446-b36b4bed-a85f-4d4c-a39b-2323e2bf35eb.png)
+
+
+![image](https://user-images.githubusercontent.com/109040029/199632725-bf51f119-b970-4dcc-87e7-73a152334ce2.png)
+
+![image](https://user-images.githubusercontent.com/109040029/199633142-3063711f-f618-478b-96b4-80a71a6ce60b.png)
+
+Go to email and confirm your subscription to receive the notification and it will lead to 
+
+![image](https://user-images.githubusercontent.com/109040029/199633180-d634e3b0-a61f-4e1e-88e0-6181c2812fec.png)
 
 
 
 
-
-![image](https://user-images.githubusercontent.com/109040029/199630711-bad2a661-34cc-437d-b454-f96ffb322fb8.png)
 
 
 
