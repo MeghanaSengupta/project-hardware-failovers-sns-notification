@@ -198,12 +198,30 @@ attach this policy to the role
 
 Now click on Launch instance 
 
+Select CloudWatch service. Select Alarms, then All alarms and click on create Alarm
 
+![image](https://user-images.githubusercontent.com/109040029/199628491-8d9a81a7-6745-418c-a50b-05710e97b978.png)
 
+![image](https://user-images.githubusercontent.com/109040029/199628877-90c72bd6-c8af-41ec-bb24-ae47562cc90e.png)
 
+click on select metrics
 
+click on EC2
 
+![image](https://user-images.githubusercontent.com/109040029/199628945-d8bc00c4-2015-438f-97cd-b45e36e00549.png)
 
+click on Per-instance Metrics
 
+![image](https://user-images.githubusercontent.com/109040029/199629007-7bb01a0c-be9c-48e8-b2f1-5e03018d27ca.png)
+
+select StatusCheckFailed_System
+
+![image](https://user-images.githubusercontent.com/109040029/199629162-9694bb60-418c-4e4e-a979-99d165de4ac3.png)
+
+Click on select Metrics and it will lead you to  below mentioned screen 
+
+Make couple of changes, In Metric: period = 1 minute and In Condition, Greater/Equal and select next 
+
+![image](https://user-images.githubusercontent.com/109040029/199629428-b8573612-9268-4110-a314-b61c7a36e3e2.png)
 
 
