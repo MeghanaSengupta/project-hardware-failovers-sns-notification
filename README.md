@@ -154,7 +154,7 @@ Select RSA and .ppk
 
 Netowrk setting = select the VPC we have created. Subnet = public subnet, enable auto assign public IP, select existing securtiy group, we created, EC2-SG
 
-Now go to advanced details and in IAM instance profile, create new IAM profile
+Now go to advanced details and in IAM instance profile, create new IAM role
 
 ![image](https://user-images.githubusercontent.com/109040029/199380093-d3d3e225-c87d-4056-be5d-ea732b57ee1a.png)
 
@@ -187,6 +187,18 @@ go to next and if you wish give tag or else select Review
 now give name  CloudWatchRole-EC2-RDS-SNS and click on Create policy
 
 ![image](https://user-images.githubusercontent.com/109040029/199382271-af9d1fe4-1c39-4fde-95c9-25ca9943c462.png)
+
+attach this policy to the role
+
+![image](https://user-images.githubusercontent.com/109040029/199627366-b1a879fd-1aa3-4185-b6d4-c6ea4a059e51.png)
+
+![image](https://user-images.githubusercontent.com/109040029/199627416-c218df58-5d87-4a90-b03f-ca03d20a86b7.png)
+
+![image](https://user-images.githubusercontent.com/109040029/199627497-b6f88e82-f624-4e66-a636-5b66b25d2565.png)
+
+Now click on Launch instance 
+
+
 
 
 
