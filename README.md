@@ -224,4 +224,17 @@ Make couple of changes, In Metric: period = 1 minute and In Condition, Greater/E
 
 ![image](https://user-images.githubusercontent.com/109040029/199629428-b8573612-9268-4110-a314-b61c7a36e3e2.png)
 
+select Create new topic and give name EC2-RDS-SNS-failure and enter the email address you want to receive the notification and click on create topic
+
+Now click on EC2 action, and select Recover this instance
+
+![image](https://user-images.githubusercontent.com/109040029/199631916-7485ee67-fed0-41e6-8ce0-e6ca235c2838.png)
+
+
+
+
+
+![image](https://user-images.githubusercontent.com/109040029/199630711-bad2a661-34cc-437d-b454-f96ffb322fb8.png)
+
+
 
