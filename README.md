@@ -243,6 +243,19 @@ Go to email and confirm your subscription to receive the notification and it wil
 
 ![image](https://user-images.githubusercontent.com/109040029/199633180-d634e3b0-a61f-4e1e-88e0-6181c2812fec.png)
 
+Now SSH EC2 instance
+
+![image](https://user-images.githubusercontent.com/109040029/200683126-4215544d-83fb-4955-add2-5cb41d02d83a.png)
+
+give below command
+
+aws configure
+
+And give Access Key and Secret Key. Give region = eu-west-2 & output format = JSON  
+
+Now give below command
+
+aws cloudwatch set-alarm-state --alarm-name "EC2-RDS-SNS-failover" --state-value ALARM --state-reason "Simulate Hardware Failure"
 
 
 
