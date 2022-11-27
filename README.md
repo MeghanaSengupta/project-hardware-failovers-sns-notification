@@ -100,9 +100,9 @@ Create Security group for EC2. Select the VPC we've created and give inbound rul
 
 click on create Security Group
 
-Create Security group for RDS. Select the VPC we've created and give inbound rules MySQL/Aurora port 3306
+Create Security group for RDS. Select the VPC we've created and give inbound rules MySQL/Aurora port 3306 & allow from EC2-SG
 
-![image](https://user-images.githubusercontent.com/109040029/199374483-d1e624b0-b698-4da7-a4c2-61e72f4c6e80.png)
+![image](https://user-images.githubusercontent.com/109040029/204158952-7a5d7b7b-42d6-4e93-a7ca-bb521077d691.png)
 
 click on create security group
 
