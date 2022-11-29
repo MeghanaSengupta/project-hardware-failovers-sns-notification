@@ -263,7 +263,6 @@ Now again go to cloudWatch and refresh the page it will change from "In Alarm" t
 
 ![image](https://user-images.githubusercontent.com/109040029/204538163-55a3152f-249a-4026-934a-33c95b151890.png)
 
-![image](https://user-images.githubusercontent.com/109040029/204572011-1b96157d-8443-4aa9-9de7-421ca775557b.png)
 
 Now click on that Alarm, and you can see the history
 
