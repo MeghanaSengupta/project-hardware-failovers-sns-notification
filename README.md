@@ -271,6 +271,25 @@ Along with this, you will get email notification
 
 ![image](https://user-images.githubusercontent.com/109040029/204539594-3ad8f8c7-8497-4ba4-8df5-945ce24bc1c8.png)
 
+Now go to RDS & select Event subscription. Click on Create Event subscription and fill up: name, select: New email topic and With these receipients: enter email address
+
+
+![image](https://user-images.githubusercontent.com/109040029/204540465-abcf61d8-870f-4151-aa5f-7b7773a05dc5.png)
+
+Source:: Source type: instance, Instance to include: Select specific instances, Select RDS which you have created and click on create.
+
+![image](https://user-images.githubusercontent.com/109040029/204541307-433dec25-d2cc-4f7f-9c9f-e9dd56987345.png)
+
+you will receive the email. Confirm the subsscription.
+
+![image](https://user-images.githubusercontent.com/109040029/204541985-c36e7522-65a8-47f1-aae5-453d6f651112.png)
+
+![image](https://user-images.githubusercontent.com/109040029/204542127-60d0c3d4-6627-4277-a9b8-6df96e4f248e.png)
+
+Now go to RDS and select your RDS.
+
+
+
 
 
 
