@@ -257,6 +257,21 @@ Now give below command
 
 aws cloudwatch set-alarm-state --alarm-name "EC2-RDS-SNS-failover" --state-value ALARM --state-reason "Simulate Hardware Failure"
 
+Now again go to cloudWatch and refresh the page it will change from "In Alarm" to "OK" 
+
+![image](https://user-images.githubusercontent.com/109040029/204538286-77152403-0107-4a88-b73c-b5c4d4ff0924.png)
+
+![image](https://user-images.githubusercontent.com/109040029/204538163-55a3152f-249a-4026-934a-33c95b151890.png)
+
+Now click on that Alarm, and you can see the history
+
+![image](https://user-images.githubusercontent.com/109040029/204538798-ca62918c-6149-45e0-92b6-c8a7d673b954.png)
+
+Along with this, you will get email notification
+
+![image](https://user-images.githubusercontent.com/109040029/204539594-3ad8f8c7-8497-4ba4-8df5-945ce24bc1c8.png)
+
+
 
 
 
