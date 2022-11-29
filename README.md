@@ -290,6 +290,13 @@ Now go to RDS and select your RDS, go to Action & select Reboot
 
 ![image](https://user-images.githubusercontent.com/109040029/204545464-5b71e06c-0522-4abe-be5b-f8309efd8087.png)
 
+Now select Reboot with failover and confirm.
+
+![image](https://user-images.githubusercontent.com/109040029/204548912-28e2ad33-3826-4744-a45c-1842015ee7a0.png)
+
+After sometime, you will get notification 
+
+
 
 
 
