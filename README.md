@@ -286,7 +286,12 @@ you will receive the email. Confirm the subsscription.
 
 ![image](https://user-images.githubusercontent.com/109040029/204542127-60d0c3d4-6627-4277-a9b8-6df96e4f248e.png)
 
-Now go to RDS and select your RDS.
+Now go to RDS and select your RDS, go to Action & select Reboot
+
+![image](https://user-images.githubusercontent.com/109040029/204545464-5b71e06c-0522-4abe-be5b-f8309efd8087.png)
+
+
+
 
 
 
