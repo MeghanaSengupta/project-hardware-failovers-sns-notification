@@ -1,4 +1,4 @@
-# project-withstand-hardware-failovers-and-get-notified-using-sns
+# project-withstand-hardware-failovers-sns-notification
 
 sign in to console and select VPC service
 
